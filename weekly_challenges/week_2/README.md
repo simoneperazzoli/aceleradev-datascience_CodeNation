@@ -37,7 +37,7 @@ Windows
 > pip install -r requirements.txt
 ```
 
-When you finish your task, you can deactivate your `venv` with:
+When you finish your task, you can deactivate your `venv` with: 
 
 ```bash
 $ deactivate
