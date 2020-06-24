@@ -47,7 +47,9 @@ $ deactivate
 The answer must contain the values of the mean, median, mode and standard deviation of the credit score for each local state in the dataset.
 The file for submission must be in json format, according to the example file "submission.json".
 
-**OBSERVAÇÃO:**  É recomendado utilizar Python e pandas para esse desafio, mas também é possível utilizar outras ferramentas e linguagens de programação.
+
+**P.S:**  É recomendado utilizar Python e pandas para esse desafio, mas também é possível utilizar outras ferramentas e linguagens de programação.
+
 
 Data info:
 'id': customer ID
