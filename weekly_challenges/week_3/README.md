@@ -1,52 +1,67 @@
-# Conhecendo melhor nossa base de consumidores: qual estado possui os clientes com melhores pontuações de crédito?
+# Knowing our consumers: which state has the customers with the best credit scores?
 
-## Objetivo
+## Goal
 
-Queremos conhecer melhor nossos clientes por estado. Para isso, iniciamos uma análise na pontuação de crédito. 
-Para realizar a verificação inicial, precisamos de alguns valores.
-Os valores são a média, a mediana, a moda e o desvio padrão da pontuação de crédito.
+We want to know our customers better by their local. For this, we started by analyzing the credit score data.
+To perform it, we need some get values: mean, median, mode, and standard deviation for credit score.
 
-## Tópicos
+## Topics
 
-Neste desafio você aprenderá:
+With this challenge, you will learn:
 
-- Média;
-- Mediana;
-- Moda;
-- Desvio padrão.
+- Mean;
+- Median;
+- Mode;
+- Standard deviation.
 
-## Requisitos
+## Requirements:
 
-Você precisará de python 3.6 (ou superior).
+## Requirements
 
-O recomendado é você utilizar um [ambiente virtual](https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais). Para isto, execute os comandos como no exemplo abaixo:
+Python 3 and pip. It is highly recommended to use virtual environments with `virtualenv` and the `requirements.txt` file to install the dependency packages for this challenge:
 
-    pip3 install virtualenv
-    virtualenv venv -p python3
-    source venv/bin/activate 
+```bash
+$ pip3 install virtualenv
+$ virtualenv venv -p python3
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+```
 
-Ao terminar o desafio, você pode sair do ambiente criado com o comando `deactivate`
+Windows
 
-## Detalhes
+```bash
+> pip3 install virtualenv
+> virtualenv ..\venv -p python3
+> ..\venv\Scripts\activate
+> pip install -r requirements.txt
+```
 
-A resposta deve conter os valores da média, mediana, moda e desvio padrão da pontuação de crédito para cada estado do dataset.
-O arquivo para submissão deve estar em formato json, conforme o arquivo exemplo "submission.json".
+When you finish your task, you can deactivate your `venv` with:
+
+```bash
+$ deactivate
+```
+
+## Observations
+
+The answer must contain the values of the mean, median, mode and standard deviation of the credit score for each local state in the dataset.
+The file for submission must be in json format, according to the example file "submission.json".
 
 **OBSERVAÇÃO:**  É recomendado utilizar Python e pandas para esse desafio, mas também é possível utilizar outras ferramentas e linguagens de programação.
 
-Descrição dos dados:
-'id': Identificador do cliente
-'sobrenome': Sobrenome do cliente
-'pontuacao_credito': Pontuação de crédito do cliente (quanto maior, melhor o cliente geralmente)
-'estado_residencia': Estado de residência do cliente
-'genero': Gênero do cliente
-'nivel_estabilidade': Nível de estabilidade do cliente
-'saldo_conta': Saldo disponível na conta do cliente
-'numero_produtos': Número de produtos que o cliente consome
-'possui_cartao_de_credito': Possui um cartão de crédito cadastrado
-'membro_ativo': Membro acessa e consome frequentemente
+Data info:
+'id': customer ID
+'sobrenome': customer surname
+'pontuacao_credito': customer score (as higher, better)
+'estado_residencia': local (state) of client residence
+'genero': customer genre
+'nivel_estabilidade': customer economic stability
+'saldo_conta': customer account balance available
+'numero_produtos': products consumed by customer
+'possui_cartao_de_credito': credit card register
+'membro_ativo': customer activity
 
-Obs: Os dados são fictícios, mas tentam representar a realidade de uma base de clientes de um produto SaaS. 
+Obs: The data are fictitious, but try to represent the reality of a customer base for a SaaS product. 
 
 
 
