@@ -48,9 +48,6 @@ The answer must contain the values of the mean, median, mode and standard deviat
 The file for submission must be in json format, according to the example file "submission.json".
 
 
-**P.S:**  É recomendado utilizar Python e pandas para esse desafio, mas também é possível utilizar outras ferramentas e linguagens de programação.
-
-
 Data info:
 'id': customer ID
 'sobrenome': customer surname
