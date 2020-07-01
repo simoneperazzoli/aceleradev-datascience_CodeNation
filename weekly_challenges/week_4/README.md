@@ -43,8 +43,7 @@ $ pip install -r requirements.txt
 
 Windows
 
-```
-bash
+```bash
 > pip3 install virtualenv
 > virtualenv ..\venv -p python3
 > ..\venv\Scripts\activate
@@ -52,7 +51,6 @@ bash
 
 When you finish your task, you can deactivate your `venv` with: 
 
-```
-bash
+```bash
 $ deactivate
 ```
