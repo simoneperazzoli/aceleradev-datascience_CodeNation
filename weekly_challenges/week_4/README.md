@@ -1,36 +1,38 @@
-# Funções de probabilidade
+# Probability functions
 
-Neste desafio vamos praticar nossos conhecimentos em probabilidade e estatística,
-conhecimentos fundamentais para qualquer cientista de dados.
+In this challenge we will practice our skills in probability and statistics, which are fundamentals for any data scientist.
 
-## Objetivo
+## Goal
 
-O objetivo deste desafio é explorar as principais funções sobre distribuições de probabilidade
-como PDF, CDF e quantis e as relações entre duas das principais distribuições: a normal e a binomial.
+The here is to explore the main functions about probability distributions such as PDF, CDF and quantiles and the relationships between the normal and the binomial distributions.
 
-Para isso, utilizaremos dados artificiais e reais. Como dados reais, exploraremos o _data set_
-[Pulsar Star](https://archive.ics.uci.edu/ml/datasets/HTRU2) disponibilizado pelo Dr. Robert Lyon da Universidade de Manchester.
+Here  _data set_ [Pulsar Star](https://archive.ics.uci.edu/ml/datasets/HTRU2) (Dr. Robert Lyon from Manchester University) will be our case.
 
-Esse _data set_ consiste de 8 variáveis a respeito de 17898 observações de estrelas. Essas
-estrelas foram consideradas "candidatas" a serem estrelas do tipo pulsar, que têm forte 
-importância para os astrofísicos. Uma nona coluna do _data set_ especifica se a estrela é
-realmente um pulsar (caso positivo, 1) ou não (caso negativo, 0).
+ _data set_ contains 16,259 spurious examples caused by RFI/noise, and 1,639 real pulsar examples. 
+It contains 8 continuous variables, and a single class variable. The first four are simple statistics obtained from the integrated pulse profile (folded profile). This is an array of continuous variables that describe a longitude-resolved version of the signal that has been averaged in both time and frequency (see [3] for more details). The remaining four variables are similarly obtained from the DM-SNR curve (again see [3] for more details). These are summarised below:
 
-## Tópicos
+1. Mean of the integrated profile.
+2. Standard deviation of the integrated profile.
+3. Excess kurtosis of the integrated profile.
+4. Skewness of the integrated profile.
+5. Mean of the DM-SNR curve.
+6. Standard deviation of the DM-SNR curve.
+7. Excess kurtosis of the DM-SNR curve.
+8. Skewness of the DM-SNR curve.
+9. Class 
+ 
 
-Neste desafios nós vamos explorar:
+## Topics
 
-* Probabilidade
-* Estatística
+* Probability
+* Estatistics
 * NumPy
 * SciPy
 * StatsModels
 
-## Requisitos
+## Requirements
 
-Você precisará de Python 3 e pip. É altamente recomendado utilizar ambientes virtuais
-com o virtualenv e o arquivo `requirements.txt` para instalar os pacotes dependências
-do desafio:
+Python 3 and pip. It is highly recommended to use virtual environments with `virtualenv` and the `requirements.txt` file to install the dependency packages for this challenge:
 
 ```bash
 $ pip3 install virtualenv
@@ -46,9 +48,8 @@ Windows
 > virtualenv ..\venv -p python3
 > ..\venv\Scripts\activate
 > pip install -r requirements.txt
-```
 
-Quando finalizado, você pode desativar o ambiente virtual do virtualenv com:
+When you finish your task, you can deactivate your `venv` with: 
 
 ```bash
 $ deactivate
