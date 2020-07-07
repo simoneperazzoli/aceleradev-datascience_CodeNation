@@ -6,8 +6,7 @@ In this challenge we will practice exercices on hypothesis tests, one of the cen
 
 The goal of this challenge is to explore some hypothesis testing functions available in packages such as SciPy, learning to interpret their results, being critical about their uses and understanding what is behind these tests.
 
-We will use the _data set_ [2016 Olympics in Rio de Janeiro](https://www.kaggle.com/rio2016/olympic-games/)
-It contains 11 variables regarding 11538 athletes who participated in the 2016 Olympics in Rio de Janeiro.
+We will use the _data set_ [2016 Olympics in Rio de Janeiro](https://www.kaggle.com/rio2016/olympic-games/). It contains 11 variables regarding 11538 athletes who participated in the 2016 Olympics in Rio de Janeiro.
 
 ## Topics
 
