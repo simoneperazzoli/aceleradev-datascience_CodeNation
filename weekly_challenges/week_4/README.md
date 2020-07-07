@@ -20,7 +20,7 @@ It contains 8 continuous variables, and a single class variable. The first four 
 7. Excess kurtosis of the DM-SNR curve.
 8. Skewness of the DM-SNR curve.
 9. Class 
- 
+
 
 ## Topics
 
