@@ -1,26 +1,20 @@
-# Funções de probabilidade
+# Probability functions
 
-Neste desafio vamos praticar sobre testes de hipóteses, um dos conceitos centrais
-da inferência estatística e de toda pesquisa que utiliza estatística como suporte.
+In this challenge we will practice exercices on hypothesis tests, one of the central concepts of statistical inference and of all research that uses statistics as a support.
 
-## Objetivo
+## Goal
 
-O objetivo deste desafio é explorar algumas funções de testes de hipóteses disponíveis
-em pacotes como o SciPy, aprendendo a interpretar seus resultados, ser crítico sobre
-seus usos e entender um pouco sobre seus funcionamentos.
+The goal of this challenge is to explore some hypothesis testing functions available in packages such as SciPy, learning to interpret their results, being critical about their uses and understanding what is behind these tests.
 
-Para isso, utilizaremos  o _data set_ [2016 Olympics in Rio de Janeiro](https://www.kaggle.com/rio2016/olympic-games/)
-que consiste de 11 variáveis a respeito de 11538 atletas que participaram das
-Olimpíadas de 2016 no Rio de Janeiro.
+We will use the _data set_ [2016 Olympics in Rio de Janeiro](https://www.kaggle.com/rio2016/olympic-games/)
+It contains 11 variables regarding 11538 athletes who participated in the 2016 Olympics in Rio de Janeiro.
 
-## Tópicos
+## Topics
 
-Neste desafios nós vamos explorar:
-
-* Probabilidade
-* Estatística
-* Testes de hipóteses
-* Testes A/B
+* Probability
+* Statistics
+* Hypothesis testing
+* A/B tests
 
 ## Requirements
 
