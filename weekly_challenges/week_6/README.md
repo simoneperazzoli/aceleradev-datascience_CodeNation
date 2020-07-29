@@ -21,17 +21,30 @@ Neste desafios nós vamos explorar:
 * Seleção de variáveis
 * RFE
 
-## Requisitos
+## Requirements
 
-Você precisará de Python 3 e pip. É altamente recomendado utilizar ambientes virtuais
-com o virtualenv e o arquivo `requirements.txt` para instalar os pacotes dependências
-do desafio:
+Python 3 and pip. It is highly recommended to use virtual environments with `virtualenv` and the `requirements.txt` file to install the dependency packages for this challenge:
 
 ```bash
 $ pip3 install virtualenv
 $ virtualenv venv -p python3
 $ source venv/bin/activate
 $ pip install -r requirements.txt
+```
+
+Windows
+
+```bash
+> pip3 install virtualenv
+> virtualenv ..\venv -p python3
+> ..\venv\Scripts\activate
+> pip install -r requirements.txt
+```
+When you finish your task, you can deactivate your `venv` with: 
+
+```bash
+$ deactivate
+```
 ```
 
 Windows
