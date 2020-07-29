@@ -1,8 +1,8 @@
-# Redução de dimensionalidade e seleção de
+# Domensionality reduction and Features selection
 
 In this challenge, you will practice exercices about dimensionality reduction with PCA and features selection with RFE
 
-## Objetivo
+## Goal
 
 The goal is to exploit PCA analysis.
 
