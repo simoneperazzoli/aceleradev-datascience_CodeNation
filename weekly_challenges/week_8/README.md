@@ -12,28 +12,30 @@ Neste desafio você aprenderá:
 - Sklearn
 - Regression
 
-## Requisitos
+## Requirements
 
-Você precisará de python 3.6 (ou superior) e do gerenciador de pacotes pip.
+Python 3 and pip. It is highly recommended to use virtual environments with `virtualenv` and the `requirements.txt` file to install the dependency packages for this challenge:
 
-O recomendado é você utilizar um [ambiente virtual](https://pythonacademy.com.br/blog/python-e-virtualenv-como-programar-em-ambientes-virtuais). Para isto, execute os comandos como no exemplo abaixo:
-
-Linux/macos
-
-    pip3 install virtualenv
-    virtualenv ../venv -p python3
-    source ../venv/bin/activate 
-    pip install -r requirements.txt
+```bash
+$ pip3 install virtualenv
+$ virtualenv venv -p python3
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+```
 
 Windows
 
-    pip3 install virtualenv
-    virtualenv ..\venv -p python3
-    ..\venv\Scripts\activate
-    pip install -r requirements.txt
+```bash
+> pip3 install virtualenv
+> virtualenv ..\venv -p python3
+> ..\venv\Scripts\activate
+> pip install -r requirements.txt
+```
+When you finish your task, you can deactivate your `venv` with: 
 
-
-Ao terminar o desafio, você pode sair do ambiente criado com o comando `deactivate`
+```bash
+$ deactivate
+```
 
 ## Detalhes
 
