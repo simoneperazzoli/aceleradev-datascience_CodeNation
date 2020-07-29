@@ -6,7 +6,7 @@ In this challenge, we will practice _feature engineering_, the art of processing
 
 The goal of this challenge is to acquire knowledge and practice in feature engineering. With the appropriate mastery of basic techniques, such as _one-hot encoding_, _normalization_, and _standardization_, the analyst will be well prepared for the data preprocessing step, improving data quality for ML algorithms application.
 
-We will use the _data set_ [Countries of the world](https://www.kaggle.com/fernandol/countries-of-the-world) composed by 20 features, such as population, from 227 countries.
+We will use the _data set_ [Countries of the world](https://www.kaggle.com/fernandol/countries-of-the-world) composed by 20 features from 227 countries.
 
 ## Topics
 
