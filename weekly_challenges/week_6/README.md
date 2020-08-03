@@ -1,37 +1,45 @@
-# Redução de dimensionalidade e seleção de
+# Domensionality reduction and Features selection
 
-Neste desafio vamos praticar redução de dimensionalidade com PCA e seleção
-de variáveis com RFE.
+In this challenge, you will practice exercices about dimensionality reduction with PCA and features selection with RFE
 
-## Objetivo
+## Goal
 
-O objetivo deste desafio é explorar sobre como funciona o PCA e como podemos
-obter _data sets_ de dimensões mais baixas através dele.
+The goal is to exploit PCA analysis.
 
-Para isso, vamos contar com o _data set_ [FIFA 2019](https://www.kaggle.com/karangadiya/fifa19)
-que contém originalmente 89 variáveis com diversos atributos de mais de 18 mil jogadores
-do _game_ FIFA 2019.
+You will use the _data set_ [FIFA 2019](https://www.kaggle.com/karangadiya/fifa19)
+composede by 89 features with several attibutes from more than 18.000 athletes
 
-## Tópicos
+## Topics
 
-Neste desafios nós vamos explorar:
-
-* Redução de dimensionalidade
+* Dimensionality reduction
 * PCA
-* Seleção de variáveis
+* Features selection
 * RFE
 
-## Requisitos
+## Requirements
 
-Você precisará de Python 3 e pip. É altamente recomendado utilizar ambientes virtuais
-com o virtualenv e o arquivo `requirements.txt` para instalar os pacotes dependências
-do desafio:
+Python 3 and pip. It is highly recommended to use virtual environments with `virtualenv` and the `requirements.txt` file to install the dependency packages for this challenge:
 
 ```bash
 $ pip3 install virtualenv
 $ virtualenv venv -p python3
 $ source venv/bin/activate
 $ pip install -r requirements.txt
+```
+
+Windows
+
+```bash
+> pip3 install virtualenv
+> virtualenv ..\venv -p python3
+> ..\venv\Scripts\activate
+> pip install -r requirements.txt
+```
+When you finish your task, you can deactivate your `venv` with: 
+
+```bash
+$ deactivate
+```
 ```
 
 Windows
