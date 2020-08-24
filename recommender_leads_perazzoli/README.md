@@ -1,4 +1,4 @@
-# Recommend Leads
+# Recommender Leads
 
 ## Objetivo
 O objetivo deste produto é fornecer um serviço automatizado que recomenda leads para um usuário dado sua atual lista de clientes (Portfólio).
