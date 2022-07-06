@@ -23,7 +23,7 @@ cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
 distlib==0.3.0
-Django==3.0.3
+Django==3.2.14
 docutils==0.15.2
 entrypoints==0.3
 enum-compat==0.0.3
@@ -51,7 +51,7 @@ kiwisolver==1.1.0
 loguru==0.4.1
 MarkupSafe==1.1.1
 matplotlib==3.1.1
-mistune==0.8.4
+mistune==2.0.3
 nbconvert==5.6.1
 nbformat==5.0.4
 nltk==3.4.5
