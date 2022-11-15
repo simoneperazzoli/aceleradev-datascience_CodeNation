@@ -23,7 +23,7 @@ more-itertools==4.2.0
 nbconvert==5.3.1
 nbformat==4.4.0
 notebook==5.5.0
-numpy==1.14.5
+numpy==1.22.2
 pandas==0.23.1
 pandocfilters==1.4.2
 parso==0.2.1
@@ -49,3 +49,4 @@ traitlets==4.3.2
 wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.2.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
