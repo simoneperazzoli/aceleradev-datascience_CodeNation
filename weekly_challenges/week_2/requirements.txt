@@ -53,3 +53,4 @@ wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.4.2
 zipp==0.5.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
