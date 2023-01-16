@@ -28,7 +28,7 @@ docutils==0.15.2
 entrypoints==0.3
 enum-compat==0.0.3
 filelock==3.0.12
-future==0.17.1
+future==0.18.3
 idna==2.8
 imbalanced-learn==0.6.2
 imblearn==0.0
