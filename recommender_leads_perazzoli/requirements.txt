@@ -23,7 +23,7 @@ cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
 distlib==0.3.0
-Django==3.0.3
+Django==4.2.27
 docutils==0.15.2
 entrypoints==0.3
 enum-compat==0.0.3
@@ -92,7 +92,7 @@ six==1.12.0
 sklearn==0.0
 soupsieve==1.9.5
 squarify==0.4.3
-sqlparse==0.3.0
+sqlparse==0.5.4
 statsmodels==0.11.1
 streamlit==0.57.3
 terminado==0.8.3
@@ -102,7 +102,7 @@ toolz==0.10.0
 tornado==5.1.1
 traitlets==4.3.3
 tzlocal==2.0.0
-urllib3==1.25.8
+urllib3==2.6.0
 validators==0.14.3
 virtualenv==20.0.17
 watchdog==0.10.2
